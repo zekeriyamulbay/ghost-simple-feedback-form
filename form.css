@@ -9,6 +9,9 @@ textarea {
     width: 100%;
     padding: 2rem;
     background-color: #fff9f9;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-feedback-form{
@@ -85,6 +88,9 @@ textarea {
    .logo-image {
     height: 50px;
     width: 191px;
+}
+.form-group{
+    text-align: center;
 }
 
  
