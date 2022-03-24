@@ -5,7 +5,7 @@ var button_text = "";
   
         document.getElementsByClassName("feedback_active")[0].innerHTML += ('<div class="form" id="zek-feedback-form"><form><div class="form-group"><textarea name="message" id="" cols="30" rows="10" placeholder=""></textarea></div><button type="submit" class="btn-feedback-form"></button></form></div>');
 		
-            if(document.documentElement.lang="tr")
+            if(document.documentElement.lang=="tr")
         {
     	document.getElementsByName("message")[0].placeholder = "Bu makale ile alakalı aklında başka soru var mı? Buraya yaz, ekleyelim.";
             document.getElementsByClassName("btn-feedback-form")[0].innerText = "Gönder";
